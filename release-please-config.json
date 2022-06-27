@@ -3,6 +3,24 @@
   "packages": {
     "apis/Google.Analytics.Admin.V1Alpha": {},
     "apis/Google.Analytics.Data.V1Beta": {},
-    "apis/Google.Cloud.BigQuery.DataExchange.Common": {}
-  }
+    "apis/Google.Cloud.BigQuery.DataExchange.Common": {},
+    "apis/Google.Cloud.Spanner.Admin.Database.V1": {},
+    "apis/Google.Cloud.Spanner.Admin.Instance.V1": {},
+    "apis/Google.Cloud.Spanner.Data": {},
+    "apis/Google.Cloud.Spanner.Common.V1": {},
+    "apis/Google.Cloud.Spanner.V1": {}
+  },
+  "plugins": [
+    {
+      "type": "linked-versions",
+      "groupName": "Spanner",
+      "components": [
+        "apis/Google.Cloud.Spanner.Admin.Database.V1",
+        "apis/Google.Cloud.Spanner.Admin.Instance.V1",
+        "apis/Google.Cloud.Spanner.Data",
+        "apis/Google.Cloud.Spanner.Common.V1",
+        "apis/Google.Cloud.Spanner.V1"
+      ]
+    }
+  ]
 }

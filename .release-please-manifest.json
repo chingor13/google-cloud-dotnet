@@ -1,5 +1,10 @@
 {
   "apis/Google.Analytics.Admin.V1Alpha": "2.0.0-alpha01",
   "apis/Google.Analytics.Data.V1Beta": "2.0.0-beta01",
-  "apis/Google.Cloud.BigQuery.DataExchange.Common": "2.0.0-beta01"
+  "apis/Google.Cloud.BigQuery.DataExchange.Common": "2.0.0-beta01",
+  "apis/Google.Cloud.Spanner.Admin.Database.V1": "4.0.0",
+  "apis/Google.Cloud.Spanner.Admin.Instance.V1": "4.0.0",
+  "apis/Google.Cloud.Spanner.Data": "4.0.0",
+  "apis/Google.Cloud.Spanner.Common.V1": "4.0.0",
+  "apis/Google.Cloud.Spanner.V1": "4.0.0"
 }
