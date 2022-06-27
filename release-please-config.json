@@ -2,6 +2,7 @@
   "release-type": "dotnet-yoshi",
   "packages": {
     "apis/Google.Analytics.Admin.V1Alpha": {},
-    "apis/Google.Analytics.Data.V1Beta": {}
+    "apis/Google.Analytics.Data.V1Beta": {},
+    "apis/Google.Cloud.BigQuery.DataExchange.Common": {}
   }
 }
