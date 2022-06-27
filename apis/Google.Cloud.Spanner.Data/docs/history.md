@@ -1,5 +1,32 @@
 # Version history
 
+## Version 4.1.0, released 2022-06-27
+
+
+### Documentation improvements
+
+* Clarify transaction support for DDL ([ac72264](https://github.com/chingor13/google-cloud-dotnet/commit/ac72264b6248c1ef21188a983e9f7b6dfd7c8c5f)), closes [#8456](https://github.com/chingor13/google-cloud-dotnet/issues/8456)
+* **Spanner:** Updated Connection String documentation. ([5b15f43](https://github.com/chingor13/google-cloud-dotnet/commit/5b15f435389a64e6e73301a21d51543950553b17))
+
+
+### New features
+
+* Add an adapter for an ILogger to a Spanner Logger ([5b7556b](https://github.com/chingor13/google-cloud-dotnet/commit/5b7556b84be5e708d6ae69ace2e32e2299ef2ae1))
+* default handling of decimal and Float64 ([9ba8a16](https://github.com/chingor13/google-cloud-dotnet/commit/9ba8a16c48dcd6ebe5308483fd65d09156567c3d))
+* Passing SpannerConversionOptions to the APIs requiring it. ([cc18948](https://github.com/chingor13/google-cloud-dotnet/commit/cc189483726e35851c009af2b1f3e415b9c9f985))
+* Prototype PR for adding connection string options support to Keys ([65920aa](https://github.com/chingor13/google-cloud-dotnet/commit/65920aa1e6f44751ebe5295b99cdd63b5763a503))
+* Use self-signed JWTs in Spanner clients ([d465906](https://github.com/chingor13/google-cloud-dotnet/commit/d465906a562719eb4d0ddb8574110cf47ffc71ca))
+
+
+### Bug fixes
+
+* Fix emulator tests running on Grpc.Net.Client on .NET Core 3.1 ([e3364d5](https://github.com/chingor13/google-cloud-dotnet/commit/e3364d5fd31a189814c610e1353d833979c1659f))
+* Make SpannerTransaction pick up SpannerConnection.LogCommitStats as documented. ([db5c55d](https://github.com/chingor13/google-cloud-dotnet/commit/db5c55d16cc4fc1dfd33db8dcb949b86861b1507))
+* Remove Grpc.Core-specific code from Spanner ([27f16ad](https://github.com/chingor13/google-cloud-dotnet/commit/27f16ad8331a33dcfbf05357f2bd8fc303ae036c))
+* Removed Float64 from SpannerToClrTypeDefaultMappings ([a3cf5ff](https://github.com/chingor13/google-cloud-dotnet/commit/a3cf5ff5ef4693739ed486a530bdba63141fbfd4))
+* **Spanner:** Fix ToDecimal truncation for SpannerNumeric. ([2be4686](https://github.com/chingor13/google-cloud-dotnet/commit/2be4686f77e94f03a8198490769c40da41166ad2)), closes [#8285](https://github.com/chingor13/google-cloud-dotnet/issues/8285)
+* **Spanner:** Fixes ToDecimal truncation for PgNumeric. ([3ff15fb](https://github.com/chingor13/google-cloud-dotnet/commit/3ff15fb663ec9d1f7b2b3eef796d910d8767c673)), closes [#8285](https://github.com/chingor13/google-cloud-dotnet/issues/8285)
+
 ## Version 4.0.0, released 2022-06-22
 
 First GA release of v4.0. Please see release notes for 4.0.0-beta01 and 4.0.0-beta02 for details of breaking changes since v3.x
